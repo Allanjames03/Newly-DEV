@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Day 5 - Forms in HTML</title>
+</head>
+<body>
+    <h1>HTML Forms</h1>
+
+    <!-- Basic Form -->
+    <h2>Registration Form</h2>
+    <form>
+        <!-- Text input -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <!-- Email input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <!-- Radio buttons -->
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female<br><br>
+
+        <!-- Checkbox -->
+        <label>Interests:</label>
+        <input type="checkbox" name="interest" value="coding"> Coding
+        <input type="checkbox" name="interest" value="gaming"> Gaming<br><br>
+
+        <!-- Dropdown -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="ph">Philippines</option>
+            <option value="us">USA</option>
+            <option value="jp">Japan</option>
+        </select><br><br>
+
+        <!-- Textarea -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
